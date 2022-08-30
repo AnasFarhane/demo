@@ -83,6 +83,8 @@ jobs:
           git add elasticbeanstalk/docker-compose.yaml
           git commit -m "new app version: ${BUILD_NUMBER}"
           git push
+        env:
+          ARGS: "-av"
       - uses: 8398a7/action-slack@v3
         with:
           status: ${{ job.status }}
