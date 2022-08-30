@@ -225,6 +225,9 @@ const App = () => {
                         }}
                     >
                         <Image width={75} src="https://user-images.githubusercontent.com/76697224/186748018-1eb3f184-ca53-4323-b2b3-7480b7da37b8.jpg"/>
+                    <Divider>
+                        <a target="_blank" rel={"noreferrer"} href="https://github.com/AnasFarhane/demo">Click here to access GitHub link</a>
+                    </Divider>
                     </Footer>
                 </Layout>
             </Layout>
